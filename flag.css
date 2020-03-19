@@ -1,0 +1,282 @@
+/* .flag{
+    float: top;
+   
+} */
+#fours{
+    
+    padding: 100px;
+    float: left;
+}
+.Germany{
+    
+    bottom: 70px;
+    border: 1px solid;
+    width: 210px;
+    
+   }
+   #G1{
+       background-color: black;
+       height: 50px;
+   }
+   #G2{
+       background-color: red;
+       height: 50px;
+   }
+   #G3{
+       background-color: yellow;
+       height: 50px;
+   }
+.FaroeIslands{
+    border: 1px solid;
+    width: 210px;
+    background-color:red;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap:20px;
+    grid-template-columns: auto auto;
+}
+#F1{
+    border-bottom: 10px solid  rgb(15, 71, 173);
+    border-right: 10px solid rgb(15, 71, 173);
+    width: 65px;
+    height: 45px;
+    background-color:white;
+}
+#F2{
+    border-bottom: 10px solid rgb(15, 71, 173);
+    border-left: 10px solid rgb(15, 71, 173);
+    height: 45px;
+    width: 105px;
+    background-color: white;
+}
+#F3{
+    border-top: 10px solid  rgb(15, 71, 173);
+    border-right: 10px solid  rgb(15, 71, 173);
+    height: 45px;
+    width: 65px;
+    background-color:white;
+}
+#F4{
+    border-top: 10px solid rgb(15, 71, 173);
+    border-left: 10px solid  rgb(15, 71, 173);
+    height: 45px;
+    width: 105px;
+    background-color:white;
+}
+.Japan{
+   
+    bottom: 70px; 
+    border: 1px solid;
+    border: 1px solid;
+    width: 210px;
+    height: 150px;
+    background-color: white;
+}
+.J1{
+    position: relative;
+    border-radius: 100px;
+    top: 24px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+  
+    .Luxemberg{
+        
+        bottom: 70px;
+        border: 1px solid; 
+        width: 210px;
+        
+       }
+       #L1{
+           background-color:orange;
+           height: 50px;
+       }
+       #L2{
+           background-color: white;
+           height: 50px;
+       }
+       #L3{
+           background-color:rgb(0, 153, 255);
+           height: 50px;
+       }
+ .Sweeden{
+        border: 1px solid;  
+        width: 210px;
+        background-color:rgb(231, 231, 15);
+        display: grid;
+        grid-column-gap: 20px;
+        grid-row-gap:20px;
+        grid-template-columns: auto auto;
+    }
+ #X1{
+       
+        width: 65px;
+        height: 45px;
+        background-color: rgb(25, 41, 129);
+    }
+#X2{
+        
+        height: 45px;
+        width: 122px;
+        background-color: rgb(25, 41, 129);
+    }
+#X3{
+        
+        height: 45px;
+        width: 65px;
+        background-color:rgb(25, 41, 129);
+    }
+#X4{
+       
+        height: 45px;
+        width: 122px;
+        background-color: rgb(25, 41, 129);
+}
+.one{
+    border: 1px solid;
+    
+    left: 250px;
+    bottom: 150px;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+    }
+  
+  .w{
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  width: 33px;
+  height: 120px;
+  }
+  #me{
+    background-color: red;
+    color: white;
+  }
+  #w2{
+    background-color: yellow;
+  }
+  #w3{
+    background-color: green;
+  }
+  .two{
+    border: 1px solid;
+    
+    left: 500px;
+    bottom: 350px;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  /* padding: 50px; */
+    }
+  
+  .v{
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  width: 33px;
+  height: 120px;
+  }
+  #m{
+    background-color:rgb(25, 180, 51);
+    color: white;
+  }
+  #w{
+    background-color: white;
+  }
+  #ww{
+    background-color: yellow;
+  }
+  
+.Gabon{
+    
+    bottom: 300px;
+    /* left: 100px; */
+     border: 1px solid; 
+    width: 210px;
+    
+   }
+   #Ga1{
+       background-color: rgb(0, 128, 0);
+       height: 50px;
+   }
+   #Ga2{
+       background-color:#ffff00c5;
+       height: 50px;
+   }
+   #Ga3{
+       background-color: rgb(0, 110, 255);
+       height: 50px;
+   }
+   .three{
+    border: 1px solid;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+    }
+  
+  .ll{
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+  text-align: center;
+  width:70px;
+  height: 120px;
+  }
+  #ll1{
+    background-color:blue;
+    color: white;
+  }
+  #ll2{
+    background-color: white;
+  }
+  #ll3{
+    background-color: red;
+  }
+  .Lativia{
+    border: 1px solid;
+    width: 200px;
+    height: 120px;
+}
+#La1{
+    height: 45px;
+    background-color:brown ;
+}
+#La2{
+    height: 30px;
+    background-color: white;
+}
+#La3{
+    height: 45px;
+    background-color: brown;
+}
+.Mada{
+    border: 1px solid;
+    width: 210px;
+    
+   }
+   #ma{
+       background-color: #008000;
+       height: 70px;
+   }
+   #ma1{
+       background-color: orangered;
+       height: 70px;
+   }
+   .Peru{
+    border: 1px solid;
+    border: 1px solid;
+    width: 210px;
+    height: 150px;
+    background-color:steelblue;
+}
+.pe1{
+    position: relative;
+    border-radius: 100px;
+    left: 50px;
+    bottom: 130px;
+    width: 100px;
+    height: 100px;
+    background-color:yellow;
+}
