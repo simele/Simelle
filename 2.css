@@ -1,3 +1,27 @@
+header{
+    overflow: hidden;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    background-color: rgb(43, 42, 42);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 5px;
+
+}
+nav>ul>li{
+     display: inline-block;
+    pad:100px 3px;
+     font-size: 15px;
+
+}
+
+nav>ul>li>a{
+     color: white; 
+    text-decoration: none;
+}
+nav>ul>li:hover{
+    background-color:rgb(134, 128, 128);
+}
 .bottom{
     position: absolute;
     top: 40px;
@@ -16,4 +40,7 @@
     width: 150px;
     height: 500px;
     margin-left:560px;
+}
+.boody{
+    background-color: rgb(85, 63, 85);
 }

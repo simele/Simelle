@@ -7,20 +7,8 @@
     <title>Blog </title>
     <link rel="stylesheet" href="./assets/style.css">
 
-    <link rel="icon" type="image/ico " href= "C:\Users\user\Documents\mycv\assets\image\IMG_20191105_065017.jpg">
-    <style>
-        /*This is internal style*/
+    <link rel="icon" type="image/ico " href= "./assets/image/IMG_20191105_065017.jpg">
     
-        /*ele {
-            key: value
-        }*/
-        p{
-            color: blue;
-        }
-        body{
-            color: blue;
-        }
-    </style>
 
 </head> 
 <body>
@@ -32,42 +20,123 @@
 <header>
     <nav>
         <ul>
-            <li> <a href="index.html" > Home </a> </li>
-             <li> <a href="contact.html" > contact </a> </li>
-              <li> <a href="blog.html" > blog </a> </li>
+            <li><a href="my works.html" target="_blank"> My works</a></li>
+            <li> <a href="#q4" > Question 4 |</a> </li>
+             <li> <a href="#q5" > Question 5 | </a> </li>
+              <li> <a href="#q6" > Question 6 </a> </li>
+            
         </ul>
     </nav>
     </header>
         <div id="content">
     <section>
-        <p class="title"> Question 4 </p>
+        <p class="title" id="q4
+        "> Question 4 </p>
         <article>
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
-             <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
-              <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
-               <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            <p>
+                
+                Importantly, when using rem units to create a uniformly scalable design, media queries should also be in rem units.<br>
+        This will ensure that whatever a user’s browser font size,  media queries will respond to it and adjust the layout.<br>
 
+        For example, if a user scales up text very high, the layout may need to snap down from a two columns to a single column,<br>
+        just as it might on a smaller screened mobile device.<br>
+
+        If the breakpoints are at fixed pixel widths, only a different viewport size can trigger them. However with rem based breakpoints<br> 
+        they will respond to different font sizing too.<br>
+        Therefore: using relative size doesn't matter on styling of an element inorder to make it responsive.<br>
+
+            </p>
         </article>
-    <p class="date"> March 20,2020 </p> 
-   <p class="title"> Question 5 </p>
+    <p class="date"> March 18,2020 </p> 
+   <p class="title" id="q5"> Question 5 </p>
         <article>
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-             <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-              <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
-               <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
+            <p>
+                Changing the font size in pixel is recommemded when the pixel accuracy is fixed.The default browser font-size is 16px. <br>
+            For the browser 16px is equal to 100% and everything is scaled compared to 16px. For example, if the font size of a paragraph<br> 
+            is 200px, the browser will calculate it like: if 16px is 100%, 200px is what? So it will understand it as 200px is 1250 times <br>
+            default browser size(16px). like 32px is twice of the default value. But, the browser passes a lot of steps to understand <br>
+            this, the browser reads the raw bytes of HTML from the hard disk (or network).But not the actual characters written. The browser<br>
+            receives the bytes of data, but it can’t really do anything with it; the raw bytes of data must be converted to a form it understands.<br>
+            So, the raw bytes will be converted into characters and these characters are further parsed into something called tokens. Thus, the <br>
+            HTML file will be broken down to tokens and this is how the browser begins to understand what is written. Then, the tokens will be <br>
+            converted into nodes. Upon creating these nodes, the nodes are then linked in a tree data structure known as the Document Object Model<br>
+            (DOM). While,it didn't still come to CSS and measurements. But, the browser receives the raw bytes of data and kicks off the DOM <br>
+            construction process, it will also make a request to fetch the css stylesheet linked.As soon the browser begins to parse the HTML,<br>
+            upon finding a link tag to a CSS file, it simultaneously makes a request to fetch that. Here after, the same procedure like the HTML <br>
+            will be applied. Raw bytes-characters-tokens-nodes-tree formed and the bytes-characters-tokens-nodes-tree created is called CSSOM(CSS <br>
+            Object Model). Now,the browser combines the DOM and CSSOM trees into something called a render tree. With the render tree constructed,<br> 
+            the next step is to perform the layout. Right now, we have the content and style information of all visible content on the screen, but<br>
+            we haven’t actually rendered anything to the screen. Here it comes the calculation that we have talked earlier. The browser has to<br>
+            calculate the exact size and position of each object on the page. Then, the browser will begin to calculate relative to the default <br>
+            browser size.With the information about the exact positions of each element now computed, all that is left is to paint the elements to<br>
+            the screen.
+                
+                
+                
+             </p>
         </article>
-    <p class="date"> March 20,2020 </p>
-    <p class="title"> Question 6</p>
+    <p class="date"> March 18,2020 </p>
+    <p class="title" id="q6"> Question 6</p>
     <article>
-        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-         <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-          <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
-           <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
+        <p>
+            1. CSS 3 Selectors<br>
+In addition to the selectors that were available in CSS2, CSS 3 introduces some new selectors. <br>
+Using these selectors you can choose DOM elements based on their attributes. So you don't need <br>
+to specify classes and IDs for every element. Instead, you can utilize the attribute field to style them.<br>
+The most useful attributes for selectors are:<br>
+[attr^=val] Â- matches a DOM element with the attribute attr and a value starting with val<br>
+[attr$=val] Â- matches a DOM element with the attribute attr and a value ending with the suffix val<br>
+[attr*=val] Â- matches a DOM element with the attribute attr and a value containing the substring val<br>
+            2. CSS 3 Rounded Corners<br>
+Rounded corner elements can spruce up a website, but creating a rounded corner requires a designer to <br>
+write a lot of code. Adjusting the height, width and positioning of these elements is a never-ending <br>
+chore because any change in content can break them.<br>
+
+CSS 3 addresses this problem by introducing the border-radius property, which gives you the same rounded-<br>
+corner effect and you don't have to write all the code. Here are examples for displaying rounded corners <br>
+in different places of a website.<br>
+            3. CSS 3 Border Image<br>
+Another exciting feature in CSS 3 is the ability to swap out a border with an image. The property border-<br>
+image allows you to specify an image to display instead of a plain solid-colored border.<br>
+            4. CSS 3 Box Shadow<br>
+A box shadow allows you to create a drop shadow for an element. Usually this effect is achieved using a <br>
+repeated image around the element. However, with the property box-shadow this can be achieved by writing <br>
+a single line of CSS code.<br>
+
+After previously removing this property from the CSS 3 Backgrounds and Borders Module, the W3C added it <br>
+back in the last working draft.<br>
+            5. CSS 3 Text Shadow<br>
+The new text-shadow property allows you to add drop shadows to the text on a webpage. Prior to CSS 3, <br>
+this would be done by either using an image or duplicating a text element and then positioning it. A similar<br>
+ property called box-shadow is also available in CSS 3.
+            6. CSS 3 Gradient<br>
+While the Gradient effect is a sleek Web design tool, it can be a drain on resources if not implemented <br>
+correctly using current CSS techniques. Some designers use a complete image and put in the background for<br>
+ the gradient effect, which increases the page load time.<br>
+
+            7. CSS 3 RGBA: Color, Now with Opacity<br>
+The RGB property in CSS is used to set colors for different elements. CSS 3 introduces a modification and<br>
+ added opacity manipulation to this property. RGB has been transformed to RGBA (Red Green Blue Alpha channels),<br>
+ which simplifies how you control the opacity of elements.<br>
+            8. CSS 3 Transform (Element Rotation)<br>
+CSS 3 also introduced a property called transform, which enables rotating Web elements on a webpage. As of now,<br>
+ if a designer wants to rotate of an element, he or she uses JavaScript. Many JavaScript extensions/plugins are <br>
+available online for this feature, but they can make the code cumbersome and most importantly consume more resources.<br>
+            9. CSS 3 Multicolumn Layout<br>
+Almost every webpage today is divided into columns or boxes, and adjusting these boxes so they display correctly <br>
+on different browsers takes a toll on Web designers. CSS 3 solves this problem with the multicolumn layout property;<br>
+ all you have to do is specify the number of columns you need and they will be created.<br>
+
+This property is currently supported by the Firefox and WebKit browsers.<br>
+            10. CSS 3 Web Fonts<br>
+CSS 3 also facilitates embedding any custom font on a webpage. Fonts are dependent on the client system and Web pages <br>
+can render only fonts that are supported by the browser or the client machine. By using the @font-face property, you <br>
+can include the font from a remote location and can then use it.<br>
+
+
+        </p>
     </article>
-<p class="date"> March 20,2020 </p>
+<p class="date"> March 18 ,2020 </p>
  
 
 

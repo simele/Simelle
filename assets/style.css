@@ -5,52 +5,65 @@
 }
 body{
     
-    background-color: skyblue;
-    border: solid 10px lightgrey;
-    margin: 10px auto;
+    background-color: rgb(221, 231, 235);
+    color: black;
+    margin: 10px ;
 
 }
 header{
-
-    background-color: grey;
+    overflow: hidden;
     text-transform: uppercase;
-    
+    margin-bottom: 10px;
+    background-color: rgb(43, 42, 42);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 5px;
+    height: 50px;
+    /* width: 90%; */
 
-    
+}
+nav>ul>li{
+     display: inline-block;
+     padding-left: 20px;
+     padding-top:10px ;
+     font-size: 15px;
+
+}
+
+nav>ul>li>a{
+     color: white; 
+    text-decoration: none;
+}
+nav>ul>li:hover{
+    background-color:rgb(134, 128, 128);
 }
 section{
-    padding: 5px 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 article{
     line-height: 20px;
-    text-align:justify;
-    font-size: 23px;
+     text-align:justify;
+    font-size: 15px;
 }
 .title{
+    margin: 10px;
     font-size: 23px;
     font-weight: bold;
+    
+}
+p{
+    margin-left: 40px;
 }
 .date{
+    padding: 10px;
     text-transform: uppercase; 
     font-style: italic;
     font-size:15px;
 
 }
 /*Changing the nature block /inline*/
-nav>ul>li{
-    display: inline-block;
-    pad:100px 3px;
-    font-size: 20px;
- 
-}
-nav>ul>li>a{
 
-    text-decoration: none;
-}
-nav>ul>li:hover{
-    background-color: #ffffff;
-}
 img{
     width: 400px;
     height:400px;
@@ -60,6 +73,6 @@ img{
 
 }
 #clear{
-    clear:left;
+     clear:left;
 }
 

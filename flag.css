@@ -1,10 +1,13 @@
-/* .flag{
-    float: top;
-   
-} */
+.flag{
+    margin-top: 40px;
+}
+#all{
+    margin-left: 100px;
+}
 #fours{
     
-    padding: 100px;
+    margin: 70px;
+    /* margin: 50px; */
     float: left;
 }
 .Germany{
@@ -16,15 +19,15 @@
    }
    #G1{
        background-color: black;
-       height: 50px;
+       height: 45px;
    }
    #G2{
        background-color: red;
-       height: 50px;
+       height: 45px;
    }
    #G3{
        background-color: yellow;
-       height: 50px;
+       height: 45px;
    }
 .FaroeIslands{
     border: 1px solid;
@@ -114,24 +117,24 @@
  #X1{
        
         width: 65px;
-        height: 45px;
+        height: 65px;
         background-color: rgb(25, 41, 129);
     }
 #X2{
         
-        height: 45px;
+        height:65px;
         width: 122px;
         background-color: rgb(25, 41, 129);
     }
 #X3{
         
-        height: 45px;
+        height: 65px;
         width: 65px;
         background-color:rgb(25, 41, 129);
     }
 #X4{
        
-        height: 45px;
+        height: 65px;
         width: 122px;
         background-color: rgb(25, 41, 129);
 }
@@ -149,8 +152,8 @@
   padding: 20px;
   font-size: 30px;
   text-align: center;
-  width: 33px;
-  height: 120px;
+  width: 30px;
+  height: 80px;
   }
   #me{
     background-color: red;
@@ -177,8 +180,8 @@
   padding: 20px;
   font-size: 30px;
   text-align: center;
-  width: 33px;
-  height: 120px;
+  width: 30px;
+  height: 100px;
   }
   #m{
     background-color:rgb(25, 180, 51);
@@ -192,9 +195,7 @@
   }
   
 .Gabon{
-    
-    bottom: 300px;
-    /* left: 100px; */
+    padding-left: 5px;
      border: 1px solid; 
     width: 210px;
     
@@ -221,8 +222,8 @@
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 30px;
   text-align: center;
-  width:70px;
-  height: 120px;
+  width:67px;
+  height: 155px;
   }
   #ll1{
     background-color:blue;
@@ -253,7 +254,7 @@
 }
 .Mada{
     border: 1px solid;
-    width: 210px;
+    width: 200px;
     
    }
    #ma{
@@ -267,7 +268,7 @@
    .Peru{
     border: 1px solid;
     border: 1px solid;
-    width: 210px;
+    width: 200px;
     height: 150px;
     background-color:steelblue;
 }

@@ -7,40 +7,54 @@
 </head>
 <body>
     <style>
-        header{
-            text-transform: uppercase;
-            background-color:chartreuse;
-            font-size: large;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       a:link{
+           text-decoration: none;
+           font-size: 15px;
+       }
+        body{
+            background-color: rgb(161, 156, 161);
+        }
+        .B{
+            display: inline-block;
+            padding: 50px;
+            /* width: 60px;
+            height: 60px; */
+        }
+        button{
+            box-shadow: 5px 5px 5px 5px gray;
+            border-radius: 20px;
+            width: 100px;
+            height: 50px;
+        }
+        button:hover{
+            width: 120px;
+            height: 65px;
+            background-color: gray;
+        }
+        #buttons{
+            text-align: center;
+            margin-top: 25%;
 
-    }
-        nav>ul>li{
-                 display: inline-block;
-                pad:100px 3px;
-                 font-size: 20px;
-     
         }
-            
-            nav>ul>li>a{
-    
-                text-decoration: none;
-        }
-            nav>ul>li:hover{
-                background-color: #ffffff;
-        }
-    
     
         </style>
-    <header>
-        <nav>
-            <ul>
-                <li> <a href="Question 1.html" target="_blank"> Question 1 | </a> </li>
-                 <li> <a href="Question 2.html" target="_blank" > Question 2 |</a> </li>
-                  <li> <a href="Question 3.html" target="_blank"> Question 3</a> </li>
-            </ul>
-        </nav>
-        </header>
-    
+    <div id="buttons">
+        <div class="B">
+            <button> <a href="Question 1.html">Question 1</a> </button>
+        </div>
+        <div class="B">
+            <button> <a href="Question 2.html">Question 2</a> </button>
+        </div>
+        <div  class="B">
+            <button> <a href="Question 3.html">Question 3</a> </button>
+        </div>
+        <div  class="B">
+            <button> <a href="blog.html">Blog</a> </button>
+        </div>
+        <div  class="B">
+            <button> <a href="">My Cv</a> </button>
+        </div>
+    </div>
     
 </body>
 </html>
